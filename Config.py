@@ -9,5 +9,6 @@ PROGRAM = """
 Singing</br>
 Dancing</br>
 Programming</br>
-Reading
+Reading<bt>
+ahoj
 """
