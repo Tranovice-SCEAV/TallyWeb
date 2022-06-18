@@ -12,7 +12,7 @@ A python web server made for monitoring Tally status for Blackmagic Design ATEMs
 ### How to install and run
 
 ```
-$ git clone github.com/jejkukany/TallyWeb.py
+$ git clone github.com/Tranovice-SCEAV/TallyWeb.py
 $ pip install -r requirements.txt
 $ python3 TallyWeb.py
 ```
