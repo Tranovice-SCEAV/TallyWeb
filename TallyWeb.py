@@ -1,7 +1,7 @@
 # ─── IMPORTS ────────────────────────────────────────────────────────────────────
 import PyATEMMax, web, time
 from Config import *
-from Pages import Nothing, OnAir, Preview
+from Pages import Nothing, OnAir, Preview, NoneBug
 
 # ─── ATEM CONFIG AND SETUP ──────────────────────────────────────────────────────
 switcher = PyATEMMax.ATEMMax()
@@ -32,6 +32,8 @@ class TallyWeb:
             return f'''{Preview.web}'''
         elif tally_str == "[]":
             return f'''{Nothing.web}'''
+        else:
+            return f'''{NoneBug.web}'''
 
 # ─── RUN THE WEBSITE ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
