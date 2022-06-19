@@ -32,8 +32,8 @@ class TallyWeb:
             return f'''{Preview.web}'''
         elif tally_str == "[]":
             return f'''{Nothing.web}'''
-        else:
-            return f'''{NoneBug.web}'''
+        elif tally_str == "[PGM][PVW]":
+            return f'''{OnAir.web}'''
 
 # ─── RUN THE WEBSITE ────────────────────────────────────────────────────────────
 if __name__ == "__main__":
